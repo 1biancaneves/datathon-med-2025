@@ -1,50 +1,84 @@
-#  Passos Mágicos — Análise de Potencial do Aluno (PEDE)
-
 Projeto de **Análise Exploratória de Dados (EDA)** e **Machine Learning** desenvolvido no Hackathon Mulheres em Dados 2025.
 
-O objetivo é usar os dados da pesquisa **PEDE (Pesquisa Extensiva do Desenvolvimento Educacional)** para:
+Este trabalho transforma dados educacionais em **decisões pedagógicas acionáveis**.
 
-- comparar alunos com pares de perfil semelhante  
-- medir desempenho de forma justa (ajustando por contexto e defasagem)  
-- identificar fatores que mais influenciam o **Indicador de Ponto de Virada (IPV)**  
-- apoiar decisões pedagógicas baseadas em dados  
+A proposta é simples:
 
----
-
-##  Problema
-
-Como avaliar o potencial de um aluno sem compará-lo injustamente com realidades diferentes?
-
-A proposta do projeto é:
-
-→ comparar alunos com **subgrupos semelhantes**  
-→ analisar **defasagens entre contextos (escola pública vs bolsista)**  
-→ modelar **probabilidade de atingir o Ponto de Virada**  
-→ gerar **insights acionáveis para intervenção pedagógica**
+→ parar de perguntar *"quem é bom ou ruim?"*  
+→ começar a perguntar *"qual é o potencial desse aluno dadas as suas condições?"*
 
 ---
 
-##  Abordagens utilizadas
+# Valor do Projeto (por que isso importa?)
 
-###  Análise Exploratória (EDA)
-- tratamento e padronização das bases
-- cálculo de médias por turma
-- z-score por sala
-- percentis
+Avaliar alunos apenas pela média geral é injusto.
+
+Um estudante com defasagem severa e nota 6 pode ter feito um progresso muito maior do que um aluno com nota 8 que sempre teve apoio.
+
+Comparações tradicionais ignoram:
+- contexto social
+- tempo na associação
+- defasagem inicial
+- apoio psicopedagógico
+- engajamento
+
+Isso gera **decisões enviesadas** e intervenções pouco eficazes.
+
+### Este projeto resolve isso ao:
+
+- comparar alunos com pares semelhantes (mesmo ponto de partida)  
+-  medir evolução, não só nota absoluta  
+-  identificar fatores que realmente impulsionam o desempenho  
+-  prever probabilidade de atingir o “Ponto de Virada”  
+-  apoiar intervenções personalizadas  
+
+### Impacto prático
+
+Com os resultados é possível:
+
+- priorizar alunos que precisam de reforço
+- personalizar trilhas de apoio (engajamento, performance, autoconfiança)
+- reduzir desigualdades entre subgrupos
+- usar recursos pedagógicos com mais eficiência
+- tomar decisões baseadas em dados (não intuição)
+
+Em termos simples:
+
+> **mais alunos atingindo seu potencial com o mesmo orçamento**
+
+---
+
+#  Objetivos
+
+- Comparar desempenho ajustado por contexto
+- Medir gaps entre subgrupos (público vs bolsista)
+- Entender fatores associados ao sucesso acadêmico
+- Criar indicadores replicáveis
+- Construir modelo preditivo do Ponto de Virada (IPV)
+
+---
+
+# Abordagens utilizadas
+
+## Análise Exploratória (EDA)
+- limpeza e padronização das bases
+- média por turma
+- z-score
+- percentil
 - comparação entre subgrupos
 - visualizações estatísticas
 
-###  Engenharia de Features
+## Engenharia de Features
 - tempo de permanência na associação
 - categorização de defasagem
-- normalização de indicadores psicossociais
-- codificação de variáveis categóricas
+- indicadores psicossociais
+- normalização de variáveis
 
-###  Modelagem
+## Modelagem
 - clusterização (K-Modes)
 - regressão logística
-- análise de importância de variáveis
 - matriz de confusão
+- importância de variáveis
 
 ---
 
