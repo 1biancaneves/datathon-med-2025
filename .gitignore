@@ -1,0 +1,30 @@
+# python
+__pycache__/
+*.pyc
+
+# ambiente virtual
+.venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# arquivos temporários
+*.tmp
+
+# modelos treinados
+*.pkl
+*.joblib
+
+# gráficos gerados (opcional)
+reports/figures/
+
+# se quiser ignorar dados tratados
+# data/processed/
