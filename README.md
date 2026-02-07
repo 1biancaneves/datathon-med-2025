@@ -140,10 +140,10 @@ Após execução:
 
 O projeto foi organizado para:
 
-✔ separar dados brutos  
-✔ manter código versionado  
-✔ garantir execução com requirements.txt  
-✔ permitir replicação das análises por qualquer pessoa  
+- separar dados brutos  
+- manter código versionado  
+- garantir execução com requirements.txt  
+- permitir replicação das análises por qualquer pessoa  
 
 ---
 
