@@ -10,4 +10,5 @@ COPY . .
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["sh", "-c", "uvicorn src.api.main:app --host 0.0.0.0 --port ${PORT}"]
+CMD ["sh", "-c", "uvicorn scripts_EDA_ML.api.main:app --host 0.0.0.0 --port ${PORT}"]
+
